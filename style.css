@@ -1,0 +1,848 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: "Kosko";
+    font-weight: 500;
+    src: url("font/ofont.ru_Kosko.ttf");
+  }
+.star {
+ width: 30px;
+}
+
+body {
+    background-color: #EBE7CF;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-family: "Kosko";
+}
+h1 {
+  font-size: 70px;
+  color: #9E744E;
+  font-family: "Kosko";
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+button {
+  cursor: pointer;
+}
+
+
+
+header {
+    background: #6D8C60;
+  }
+  nav {
+
+    max-width: 780px;
+
+    padding: 5px 0;
+    overflow: hidden;
+  }
+  .logo-box {
+    float: left;
+    margin-left: 20px;
+  }
+  .logo {
+    margin: 0;
+    height: 70px;
+    text-align: center;
+  }
+  .logo-href {
+
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Kosko";
+  }
+  .ul-header {
+    margin: 0;
+    margin-right: 25px;
+    padding-left: 0;
+    list-style: none;
+    float: right;
+    height: 70px;
+    line-height: 70px;
+    text-align:center;
+  }
+  .href-header  {
+   
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+  }
+  .heder-logo-img {
+    width: 70px;
+  }
+  #header-li .href-header {
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  #header-li {
+    display: inline-block;
+    margin-left: 25px;
+    transition: .5s linear;
+  }
+
+
+
+/*cover banner*/
+
+.cover {
+    margin-top: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.banner-img {
+    width: 600px;
+}
+.cover-txt  {
+    margin-left: 20px;
+}
+.cover-txt h1 {
+    font-size: 70px;
+    color: #9E744E;
+    font-family: "Kosko";
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.cover-txt h2 {
+    font-size: 30px;
+    color: #A1714E;
+text-align: center;
+font-family: Nunito;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.btn-banner {
+    margin: 25px auto;
+    display: block;
+font-size: 30px;
+    color: #FFF;
+text-align: center;
+font-family: "Kosko";
+border: none;
+padding: 4px 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    border-radius: 8px;
+background: #6D8C60;
+}
+
+
+
+
+
+
+
+.block-about  {
+  margin-top: 350px;
+}
+.txt-about {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.block-about h1{
+  font-size: 70px;
+  color: #9E744E;
+  font-family: "Kosko";
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.txt-about p{
+
+  max-width: 650px;
+  color: #A1714E;
+font-family: "Nunito";
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.txt-about img{
+  margin-left: 30px;
+  width: 500px;
+}
+
+
+
+
+/*Почему мы?*/
+
+.why-us  {
+  margin-top: 250px;
+}
+.table-box {
+  margin-top: 50px;
+}
+.parent {
+ 
+text-align: center;
+align-items: center;
+justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.child {
+ 
+padding: 20px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+ flex-wrap: wrap;
+ 
+}
+
+#child-2 {
+  border-left: 2px solid #6D8C60;
+  border-right: 2px solid #6D8C60;
+ 
+}
+
+.cild-cont h1{
+  color: #6D8C60;
+text-align: center;
+
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.cild-cont h2{
+  margin-top: 10px;
+  color: #9E744E;
+text-align: center;
+font-family: "Kosko";
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.cild-cont h3{
+  margin-top: 10px;
+  width: 360px;
+  color: #A1714E;
+text-align: center;
+font-family: "Nunito";
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.price-div {
+  margin-top: 250px;
+}
+.product-div {
+  margin-top: 250px;
+}
+.h1-product {
+  margin-bottom: 100px;
+}
+.parent-box1 {
+  justify-content: center;
+  display: flex;
+}
+.product-img{
+  width: 583px;
+  height: 573px;
+}
+.box-txt h2 {
+  width: 450px;
+  padding-top: 25px;
+  color: #A1714E;
+font-family: "Nunito";
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+ text-align: left;
+ justify-content: center;
+}
+#box-txt1 {
+  padding-left: 50px;
+}
+#box-txt2 {
+  padding-right: 50px;
+}
+#box-txt3 {
+  padding-left: 50px;
+}
+#box-txt4 {
+   padding-right: 50px;
+}
+#img3 {
+  margin-left: -150px;
+}
+.box-txt h1{
+  text-align: left;
+  padding-top: 150px;
+  font-size: 45px;
+}
+
+.price-parent {
+  justify-content: center;
+margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.child-parent {
+  margin-left: 20px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 350px;
+height: 580px;
+  border-radius: 20px;
+  border: 2px solid #6D8C60;
+}
+.child-parent  h1 {
+  font-size: 45px;
+ 
+}
+.child-parent img {
+  margin-top: 30px;
+width: 280px;
+height: 280px;
+}
+.btn-price {
+  background: none;
+  border-radius: 60px;
+border: 1px solid #6D8C60;
+  width: 200px ;
+height: 55px;
+
+  color: #6D8C60;
+
+text-align: center;
+font-family: Nunito;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#h2-price {
+  margin-top: 20px;
+  color: #A1714E;
+text-align: center;
+font-family: "Nunito";
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.zakaz-block {
+  margin-top: 200px;
+}
+.zakaz-h2{
+  color: #A1714E;
+
+text-align: center;
+font-family: 'Nunito';
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.social-media {
+  
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+display: flex;
+}
+.img-sc{
+
+  margin-left: 50px;
+}
+.table {
+  padding-top: 30px;
+padding-left: 80px;
+  margin: 20px auto;
+  width: 855px;
+height: 351px;
+border-radius: 40px;
+background: rgba(161, 113, 78, 0.50);
+
+}
+
+
+.table  li{
+  color: #FFF;
+
+font-family: Nunito;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: 158.906%; /* 63.562px */
+letter-spacing: -0.8px;
+}
+.table-h2{
+  margin-top: 80px;
+  color: #A1714E;
+font-size: 40px;
+text-align: center;
+font-family: 'Nunito';
+
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+footer {
+ align-items: center;
+  display: flex;
+  margin-top: 105px;
+  width: 100%;
+  height: 100px;
+  background: #6D8C60;
+}
+footer h3{
+  margin-left: 70px;
+  color: #FFF;
+font-family: 'Kosko';
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+footer p{
+  color: #FFF;
+font-family: 'Nunito';
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.footer-block1 {
+  margin-left: 200px;
+}
+footer p{
+  margin-left: 100px;
+}
+
+@media (min-width:200px) and (max-width:1200px) {
+.social-media img{
+width: 70px;
+}
+  .why-us  {
+    margin-top: 250px;
+  }
+  .table-box {
+    margin-top: 50px;
+  }
+  .parent {
+   
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+    display: flex;
+    flex-direction:column;
+  }
+  .child {
+   
+  padding: 20px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+   flex-wrap: wrap;
+   
+  }
+  
+  #child-2 {
+    border-top: 2px solid #6D8C60;
+    border-bottom: 2px solid #6D8C60;
+    border-left: 0px solid #6D8C60;
+    border-right: 0px solid #6D8C60;
+   
+  }
+  
+  .cild-cont h1{
+    color: #6D8C60;
+  text-align: center;
+  
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  }
+  .cild-cont h2{
+    margin-top: 10px;
+    color: #9E744E;
+  text-align: center;
+  font-family: "Kosko";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  }
+  .cild-cont h3{
+    margin-top: 10px;
+    width: 360px;
+    color: #A1714E;
+  text-align: center;
+  font-family: "Nunito";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+
+
+
+
+  
+.product-div {
+  margin-top: 250px;
+}
+.h1-product {
+  margin-bottom: 100px;
+}
+.parent-box1 {
+  justify-content: center;
+  display: flex;
+}
+.product-img{
+  width: 583px;
+  height: 573px;
+}
+.box-txt h2 {
+  width: 450px;
+  padding-top: 25px;
+  color: #A1714E;
+font-family: "Nunito";
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+ text-align: left;
+ justify-content: center;
+}
+#box-txt1 {
+  padding-left: 50px;
+}
+#box-txt2 {
+  padding-right: 50px;
+}
+#box-txt3 {
+  padding-left: 50px;
+}
+#img3 {
+  margin-left: -150px;
+}
+.box-txt h1{
+  padding-top: 150px;
+  font-size: 45px;
+}
+
+.price-div {
+  margin: auto;
+  width: 350px;
+}
+.price-parent {
+
+  justify-content: center;
+margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.child-parent {
+margin-top: 50px;
+  margin-left: 0px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 350px;
+height: 580px;
+  border-radius: 20px;
+  border: 2px solid #6D8C60;
+}
+.child-parent  h1 {
+  font-size: 45px;
+ 
+}
+.child-parent img {
+  margin-top: 30px;
+width: 280px;
+height: 280px;
+}
+.btn-price {
+  background: none;
+  border-radius: 60px;
+border: 1px solid #6D8C60;
+  width: 200px ;
+height: 55px;
+
+  color: #6D8C60;
+
+text-align: center;
+font-family: Nunito;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.zakaz-block {
+  margin-top: 200px;
+}
+.zakaz-h2{
+  color: #A1714E;
+
+text-align: center;
+font-family: 'Nunito';
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.social-media {
+  
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+display: flex;
+}
+.img-sc{
+
+  margin-left: 50px;
+}
+.table {
+  padding-top: 50px;
+padding-left: 40px;
+  margin: 20px auto;
+  width: 430px;
+height: 351px;
+border-radius: 40px;
+background: rgba(161, 113, 78, 0.50);
+
+}
+
+
+.table  li{
+  color: #FFF;
+
+font-family: Nunito;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 158.906%; /* 63.562px */
+letter-spacing: -0.8px;
+}
+.table-h2{
+  margin-top: 30px;
+  color: #A1714E;
+font-size: 30px;
+text-align: center;
+font-family: 'Nunito';
+
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+
+
+footer {
+  justify-content: center;
+  align-items: center;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 105px;
+   width: 100%;
+   height: 300px;
+   background: #6D8C60;
+ }
+ footer h3{
+  
+   margin-left: 0px;
+   color: #FFF;
+ font-family: 'Kosko';
+ font-size: 50px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: normal;
+ }
+ footer p{
+ 
+   color: #FFF;
+ font-family: 'Nunito';
+ font-size: 30px;
+ font-style: normal;
+ font-weight: 300;
+ line-height: normal;
+ }
+ .footer-block1 {
+  text-align: center;
+   margin-left: 0px;
+ }
+ footer p{
+   margin-left: 0px;
+ }
+} 
+
+
+
+
+
+@media screen and (max-width:1150px) {
+  .logo-box {
+    float: none;
+    margin: 0 auto;
+  }
+  svg {
+    padding-top: 60px;
+    width: 25px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+ .ul-header {
+    float: none;
+    margin: 0 25px;
+    }
+    #header-li :first-of-type {margin-left:0}
+ .cover {
+  margin-top: 100px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.banner-img {
+  width: 400px;
+} .txt-about p {
+text-align: center;
+max-width: 400px;
+}
+.txt-about img{
+margin-top: 80px;
+justify-content: center;
+display: flex;
+width: 350px;
+}
+.txt-about {
+flex-wrap: wrap;
+}
+.parent {
+flex-direction: column;
+
+}
+
+
+
+
+.product-div {
+margin-top: 250px;
+}
+.h1-product {
+margin-bottom: 20px;
+}
+.parent-box1 {
+margin-top: 30px;
+text-align: center;
+justify-content: center;
+display: flex;
+}
+.product-img{
+width: 283px;
+height: 273px;
+}
+
+.box-txt h2 {
+width: 300px;
+padding-top: 5px;
+color: #A1714E;
+font-family: "Nunito";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+justify-content: center;
+}
+#box-txt1 h1{
+width: 299px;
+}
+#box-txt1 {
+padding-left: 0px;
+}
+#box-txt2 {
+padding-right: 0px;
+}
+#box-txt3 {
+padding-left: 0px;
+}
+#box-txt4 {
+padding-right: 0px;
+}
+#box-txt4 h1{
+width: 301px;
+}
+#img3 {
+margin-left: 0px;
+}
+.box-txt h1{
+padding-top: 20px;
+font-size: 25px;
+}
+#parent-one {
+flex-wrap: wrap;
+}
+#parent-two {
+flex-wrap: wrap-reverse;
+
+}
+#parent-three {
+flex-wrap: wrap;
+}
+#parent-four {
+flex-wrap: wrap-reverse;
+}
+}
+
+@media screen and (max-width:1000px) {
+nav {
+  overflow: visible
+}
+.ul-header {
+  height: auto;
+  margin: 25px 25px 0 25px;
+  line-height: 50px;
+}
+#header-li {
+  display: block;
+  margin: 0;
+}
+#header-li :hover {
+  background: rgba(0,0,0,.1)
+}
+#header-li  a:after {
+  content: none;
+}
+}
